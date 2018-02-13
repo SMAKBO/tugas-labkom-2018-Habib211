@@ -1,0 +1,30 @@
+h1 { 
+	color:#00FF80; margin-left:600px; font-size: 36pt; 
+}
+h2 { 
+	color:#00FFFF; 
+}
+
+a {
+	color:red;
+}
+
+
+#nav { 
+	border-style: solid; margin:10px 50px 10px 50px;border: 5px solid pink; 
+}
+#nav a {
+	text-decoration: none; color:lightblue;
+}
+
+.recommended {
+	font-family: Verdana; font-variant: small-caps;
+}
+
+body {
+background-color: white;
+
+}
+p {
+	background-color: lightblue; text-align: center;
+}
