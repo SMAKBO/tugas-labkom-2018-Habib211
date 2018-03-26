@@ -39,3 +39,6 @@ body {
     background-image: url("http://ak3.picdn.net/shutterstock/videos/14838583/thumb/1.jpg");
 }
 
+img {
+    float: left;
+}
