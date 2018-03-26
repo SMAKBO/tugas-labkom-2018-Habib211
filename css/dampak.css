@@ -42,3 +42,10 @@ body {
 img {
     float: left;
 }
+
+strong {color: #E9967A}
+
+.footer {
+    background-color: 	#000000;
+    padding: 3rem 1.5rem 6rem;
+}
