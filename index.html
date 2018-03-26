@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta charset="utf-8">    
+  <title>Acetaldehyde</title>
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.6.2/css/bulma.css">
+ <link rel="stylesheet" type="text/css" href="css/style.css"> 
+  
+</head>
+
+<body>
+    <nav class="navbar" role="navigation" aria-label="dropdown navigation">
+  <a class="navbar-item">
+    <img src="https://github.com/SMAKBO/tugas-labkom-2018-Habib211/blob/master/img/logoacetal32.png?raw=true.png" alt="Bulma: a modern CSS framework based on Flexbox" width="20" height="200">
+  </a>
+ 
+  <div class="navbar-item has-dropdown is-hoverable">
+    <a class="navbar-link">
+      Docs
+    </a>
+
+    <div class="navbar-dropdown">
+      <a class="navbar-item" href="index.html">Home
+      </a>
+      <a class="navbar-item" href="pengertian.html">Definition
+      </a>
+      <a class="navbar-item" href="bahaya_pembuatan.html">Negative Impact
+      </a>
+      <a class="navbar-item" href="kegunaan.html">Usefull
+      </a>
+     <a class="navbar-item" href="pembuatan.html">How to Make
+      </a>
+       <a class="navbar-item" href="sifat.html">Characteristic
+      </a>
+      <a class="navbar-item" href="sejarahasetal.html">History
+      </a>
+
+
+      </div>
+    </div>
+  </div>
+</nav>
+<!--navbar abis-->
+<!--banner-->
+
+  <section class="hero is-primary is-medium">
+  <div class="hero-body">
+    <div class="container">
+      <h1 class="title">
+        Acetaldehyde
+      </h1>
+    </div>
+  </div>
+</section>
+<style>
+.hero.is-primary {
+  background-color: black;
+}
+.hero-body {
+  background-image: url("https://github.com/SMAKBO/tugas-labkom-2018-Habib211/blob/master/img/acetal.png?raw=true.png");
+}
+.navbar {
+  width:1500pt; height:50pt;
+}
+h3 {
+  font-size: 30pt;text-align: center;
+}
+.card {
+  background-color: black; color: white;
+}
+h5 {
+  font-size: 25pt; font-family: cursive;
+}
+.navbar {
+  background-color: black; color: grey;
+}
+li a {
+  color:white;
+}
+</style>
+  <!--breadcrumb-->
+    <div class="card">
+  <nav class="breadcrumb is-centered" aria-label="breadcrumbs">
+  <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="pengertian.html">Definition</a></li>
+        <li><a href="sejarahasetal.html">History</a></li>
+        <li><a href="pembuatan.html">Preparation</a></li>
+        <li><a href="bahaya_penggunaan.html">Negative Effect</a></li>
+        <li><a href="sifat.html">Characteristic</a></li>
+        <li><a href="kegunaan">Usefulness</a></li>
+  </ul>
+    
+</nav>
+  <div class="parallax"></div>
+  <div class="slideshow-container">
+
+<div class="mySlides fade">
+  <div class="numbertext">1 / 6</div>
+  <img src="img/definisi.jpg" style="width:100%">
+  <div class="text">Definition</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">2 / 6</div>
+  <img src="img/sejarah.jpg" style="width:100%">
+  <div class="text">History</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">3 / 6</div>
+  <img src="img/sifat.jpg" style="width:100%">
+  <div class="text">Characteristic</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">4 / 6</div>
+  <img src="img/kegunaan.jpg" style="width:100%">
+  <div class="text">Usefulness</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">5 / 6</div>
+  <img src="img/dampaknegatif.jpg" style="width:100%">
+  <div class="text">Negative Effect</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">6 / 6</div>
+  <img src="img/pembuatan.jpg" style="width:100%">
+  <div class="text">Preparation</div>
+</div>
+
+<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+<a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span> 
+  <span class="dot" onclick="currentSlide(2)"></span> 
+  <span class="dot" onclick="currentSlide(3)"></span> 
+</div>
+
+<script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+}
+</script>
+
+          <!-- Content -->
+        </div>
+      </div>
+    </article>
+  </div>
+</div>
+  <!--footer-->
+  <footer class="footer">
+  <div class="container">
+    <div class="content has-text-centered">
+      <p>
+        <strong>This Web made</strong> by <a href="https://seventienwahyu.github.io/seven.html">Seventien</a>.
+        <a href="http://opensource.org/licenses/mit-license.php"></a> The website content
+       licensed
+      </p>
+    </div>
+  </div>
+</footer>
+</body>
+</html>
