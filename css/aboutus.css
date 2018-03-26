@@ -14,7 +14,7 @@ h3 {
   background-color: black; color: white;
 }
 h5 {
-  font-size: 25pt; font-family: cursive;color: white;
+  font-size: 25pt; font-family: cursive;
 }
 .navbar {
   background-color: black; color: grey;
@@ -22,6 +22,7 @@ h5 {
 li a {
   color:white;
 }
+
 .column {
     float: left;
     width: 50%; background-color: black;}
