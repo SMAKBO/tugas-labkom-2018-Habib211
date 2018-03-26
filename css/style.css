@@ -107,3 +107,55 @@
 @media only screen and (max-width: 300px) {
   .prev, .next,.text {font-size: 11px}
 }
+
+.hero.is-primary {
+  background-color: black;
+}
+.hero-body {
+  background-image: url("https://github.com/SMAKBO/tugas-labkom-2018-Habib211/blob/master/img/acetal.png?raw=true.png");
+}
+.navbar {
+  width:1500pt; height:50pt;
+}
+h3 {
+  font-size: 30pt;text-align: center;
+}
+.card {
+  background-color: black; color: white;
+}
+h5 {
+  font-size: 25pt; font-family: cursive;
+}
+.navbar {
+  background-color: black; color: grey;
+}
+li a {
+  color:white;
+}
+.notification.is-primary {
+    background-color: #2b7b7b;
+    color: #fff;
+}
+.notification.is-info {
+    background-color: #904014;
+    color: #fff;
+}
+.notification.is-success {
+    background-color: #8e1527;
+    color: #fff;
+}
+.notification.is-danger {
+    background-color: #866676;
+    color: #fff;
+}
+.hero.is-light .title {
+    color: #f1eded;
+}
+.hero.is-light{
+	background-color:black;
+	color: #363636
+	}		
+.footer {
+    background-color: #13010c;
+    padding: 3rem 1.5rem 6rem;
+}
